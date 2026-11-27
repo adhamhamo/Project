@@ -114,3 +114,110 @@ body {
         flex-wrap: wrap;
     }
 }
+
+
+.hero {
+    background-image:  url(./images/Warm\ Modern\ Restaurant\ Interior.png);
+    filter: brightness(85%);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 100%;
+    padding: 25px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+
+.navbar a:hover {
+    background: rgb(223, 165, 57);
+    text-decoration: underline;
+    border-radius: 8px;
+    padding: 8px;
+}
+.texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(248, 225, 225);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    background: linear-gradient(red , orange);
+    color: rgb(243, 242, 246);
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border:none;
+    transition: 2s;
+}
+button:hover {
+    background: rgb(233, 180, 56);
+    cursor: pointer;
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+     body {
+    background-size: cover;
+}
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 50px 20px;
+}
+
+.card {
+    width: 500px;
+    padding: 28px 25px;
+    background-color: #fffaf6;
+    border: 1px solid #f1e9e3;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #292929;
+    margin-bottom: 14px;
+}
+
+.card p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #777;
+}
