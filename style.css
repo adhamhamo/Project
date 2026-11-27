@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf6;
+}
 .hero {
     background-image:  url(./images/Warm\ Modern\ Restaurant\ Interior.png);
     filter: brightness(85%);
