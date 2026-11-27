@@ -83,3 +83,32 @@ button:hover {
     background-size: cover;
 }
 }
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 50px 20px;
+}
+
+.card {
+    width: 415px;
+    padding: 28px 25px;
+    background-color: #fffaf6;
+    border: 1px solid #f1e9e3;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #292929;
+    margin-bottom: 14px;
+}
+
+.card p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #777;
+}
